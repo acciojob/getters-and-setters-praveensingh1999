@@ -4,10 +4,10 @@ class Person {
 		this._name = name; // test expects _name
 		this._age = age;   // test expects _age
 	}
-	getname(){
+	get name(){
 		return this._name;
 	}
-	setage(age){
+	set age(age){
 		this._age = age;
 	}
 }
